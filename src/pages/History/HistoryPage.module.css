@@ -1,0 +1,139 @@
+.container {
+  background-color: #101827;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.filterBar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 17px 20px;
+  background-color: #1F2937;
+  border-radius: 12px;
+  max-width: 1100px;
+  margin: 0 auto 30px auto;
+  box-sizing: border-box;
+  height: 76px;
+}
+
+.filterGroup {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.filterLabel {
+  color: #9CA3AF;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dropdown {
+  background-color: #374151;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.arrowIcon {
+  width: 16px;
+  height: 16px;
+  fill: #9CA3AF;
+}
+
+.applyButton {
+  margin-left: auto;
+  background-color: #5046E5;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.applyButton:hover {
+  background-color: #6155e5;
+}
+
+.historyGroup {
+  max-width: 1100px;
+  margin: 0 auto 30px auto;
+}
+
+.groupTitle {
+  color: #9AA1AD;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.historyCard {
+  background-color: #1F2937;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.cardLang {
+  font-size: 14px;
+  color: #818CF8;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.trashIcon {
+  width: 20px;
+  height: 20px;
+  fill: #9CA3AF;
+  cursor: pointer;
+}
+
+.original {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin: 0 0 6px 0;
+  line-height: 1.2;
+}
+
+.translated {
+  font-size: 16px;
+  color: #9CA3AF;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.loadMore {
+  margin: 20px auto 0 auto;
+  display: block;
+  border: 1px solid #1F2937;
+  background-color: transparent;
+  color: #9CA3AF;
+  border-radius: 10px;
+  padding: 11px 30px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}

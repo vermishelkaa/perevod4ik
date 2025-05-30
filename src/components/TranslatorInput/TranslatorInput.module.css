@@ -1,0 +1,46 @@
+.translatorContainer {
+  flex: 1;
+  padding: 24px;
+  background-color: #1F2937;
+}
+
+.languageSelector {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  color: #9CA3AF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.languageLabel {
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.languageName {
+  color: #5046E5;
+}
+
+.inputContainer {
+  background-color: #374151;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.textInput {
+  width: 100%;
+  min-height: 200px;
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  resize: none;
+}
+
+.textInput:focus {
+  outline: none;
+}
+
+.textInput::placeholder {
+  color: #9CA3AF;
+}

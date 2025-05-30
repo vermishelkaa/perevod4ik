@@ -1,0 +1,99 @@
+.sidebar {
+  width: 260px;
+  background-color: #1F2937;
+  color: #9CA3AF;
+  height: 100vh;
+  padding-top: 32px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-right: 2px solid #2C3544;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  margin-left: 24px;
+  margin-bottom: 48px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 24px;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #D1D5DB;
+}
+
+.username {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.role {
+  font-size: 15px;
+  font-weight: 500;
+  background: linear-gradient(90deg, #614FCF, #D78E33, #614FCF);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 1.5s linear infinite;
+  text-shadow: 0 0 2px rgba(214, 142, 51, 0.2), 0 0 3px rgba(97, 79, 207, 0.2);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #9CA3AF;
+  padding: 12px 24px;
+  transition: background-color 0.2s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.link:hover {
+  background-color: #2C3544;
+  color: white;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: #9CA3AF;
+}
+
+.active {
+  background-color: #5046E5;
+  color: white;
+  font-weight: 600;
+  border-radius: 0;
+}

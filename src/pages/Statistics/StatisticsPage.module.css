@@ -1,0 +1,197 @@
+.wrapper {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #101827;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.cardRow {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #1F2937;
+  border-radius: 16px;
+  width: 251px;
+  height: 152px;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #9CA3AF;
+  align-items: center;
+}
+
+.cardMain {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cardBottom {
+  font-size: 14px;
+  color: #9CA3AF;
+}
+
+.cardBottomGreen {
+  font-size: 14px;
+  color: #22C55E;
+}
+
+.yellowIcon {
+  fill: #F59E0C;
+}
+
+
+
+.graphRow {
+  display: flex;
+  gap: 30px;
+  height: 347px;
+}
+
+.barBlock {
+  background-color: #1F2937;
+  border-radius: 16px;
+  padding: 30px 25px;
+  flex: 1.6;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 12px;
+  padding-bottom: 0px;
+}
+
+.pieBlock {
+  background-color: #1F2937;
+  border-radius: 16px;
+  padding: 30px 25px;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.graphHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+.toggleGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.toggleBtn {
+  padding: 4px 12px;
+  font-size: 12px;
+  border-radius: 999px;
+  border: none;
+  background-color: #374151;
+  color: #D1D5DB;
+  cursor: pointer;
+}
+
+.toggleBtn.active {
+  background-color: #2C355D;
+  color: #7B86EE;
+}
+
+
+
+.pieChartWrapper {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.pieChartContainer {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto; /* по центру */
+}
+
+.pieCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.pieValue {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.pieCenterText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+
+.pieLegend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px; 
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.language {
+  color: #D1D5DB;
+  font-size: 16px;
+  width: 100px;
+}
+
+.progressBar {
+  flex: 1;
+  height: 6px;
+  background-color: #374151;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  border-radius: 999px;
+}
+
+.sectionTitle {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

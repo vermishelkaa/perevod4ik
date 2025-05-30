@@ -1,0 +1,269 @@
+.translationBlock {
+  background-color: #1F2937;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 428px;
+  width: 100%;
+  max-width: 1100px;
+  box-sizing: border-box;
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.select {
+  background-color: #374151;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  appearance: none;
+}
+
+.icon {
+  fill: #9CA3AF;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.textAreas {
+  display: flex;
+  gap: 24px;
+  flex: 1;
+}
+
+.inputBox {
+  flex: 1;
+  background-color: #374151;
+  border-radius: 12px;
+  padding: 20px;
+  color: #9CA3AF;
+  font-size: 16px;
+  resize: none;
+  border: none;
+  outline: none;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.actionsRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconGroup {
+  display: flex;
+  gap: 16px;
+}
+
+.miniDictionaryContainer {
+  width: 1100px;
+  background-color: #1F2937;
+  border-radius: 16px;
+  padding: 25px 30px 25px 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-top: 30px;
+}
+
+.subTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.miniDictionaryContainer {
+  width: 1100px;
+  padding: 30px 25px;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+.miniDictionaryGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 20px;
+}
+
+.card {
+  background-color: #374151;
+  border-radius: 12px;
+  padding: 20px 15px;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-sizing: border-box;
+}
+
+/* Индивидуальные высоты */
+.cardDescription {
+  height: 161px;
+}
+
+.cardExamples {
+  height: 172px;
+}
+
+.cardSynonyms {
+  height: 108px;
+}
+
+.cardTips {
+  height: 166px;
+  padding-bottom: 20px;
+}
+
+/* Общие отступы внутри */
+.card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card p,
+.card li {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.card ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tags span {
+  background-color: #4B5563;
+  color: #E5E7EB;
+  border-radius: 9999px;
+  padding: 6px 14px;
+  font-size: 16px;
+}
+
+.tag {
+  color: #6366F1;
+  font-weight: 500;
+  margin-right: 4px;
+  font-size: 16px;
+}
+
+.tipsList {
+  list-style: none;
+  margin-top: 0px;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tipIcon {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  fill: #6366F1; 
+}
+
+.tipsList li {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
+
+
+
+.recentTranslationsContainer {
+  width: 1100px;
+  margin: 0 auto 30px auto;
+  margin-top: 30px;
+}
+
+.recentTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.translationCard {
+  background-color: #1F2937;
+  border-radius: 14px;
+  width: 100%;
+  height: 125px;
+  box-sizing: border-box;
+  padding: 20px 20px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.translationTop {
+  display: flex;
+  justify-content: space-between;
+ 
+  margin-bottom: 0px;
+}
+
+.translationLang {
+  font-size: 14px;
+  color: #818CF8;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.translationTime {
+  font-size: 14px;
+  color: #9CA3AF;
+  margin-top: 0px;
+}
+
+.translationOriginal {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  line-height: 1.2;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+.translationResult {
+  font-size: 16px;
+  color: #9CA3AF;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 6px;
+}
+
+
+
