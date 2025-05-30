@@ -6,3 +6,4 @@ npm install recharts - для графиков
 
 npx gitignore node - для файла гитигнор
 
+
